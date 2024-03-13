@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("wooden-bg.jpg");
+    display: flex;
+    flex-direction: column;
+}
+.block-one{
+    color: white;
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.aligner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    font-size: 25px;
+}
+.block-two{
+    margin:50px;
+    margin-top: 150px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(7,1fr);
+}
+.letter{
+    font-size: 125px;
+    color: rgb(0, 0, 0);
+    width: 175px;
+    height: 175px;
+    border:  solid black 3px;
+}
+.S{
+    background-image: url("crash.png");
+}
+.D{
+    background-image: url("tom3.png");
+}
+.F{
+    background-image: url("tom1.png");
+}
+.G{
+    background-image: url("kick.png");
+}
+.H{
+    background-image: url("tom2.png");
+}
+.J{
+    background-image: url("tom4.png");
+}
+.K{
+    background-image: url("snare.png");
+}
